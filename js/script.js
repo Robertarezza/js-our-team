@@ -6,34 +6,34 @@
 
 const infoPerson = [
     {
-        img :"wayne-barnett-founder-ceo.jpg",
-        name : "Wayne Barnett",
-        profession : "Founder & CEO"
+        img: "wayne-barnett-founder-ceo.jpg",
+        name: "Wayne Barnett",
+        profession: "Founder & CEO"
     },
     {
-        img : "angela-caroll-chief-editor.jpg",
-        name : "Angela Carolo",
-        profession : "Chief Editor"
+        img: "angela-caroll-chief-editor.jpg",
+        name: "Angela Carolo",
+        profession: "Chief Editor"
     },
     {
-        img : "walter-gordon-office-manager.jpg",
-        name : "Walter Gordon",
-        profession : "Office Manager"
+        img: "walter-gordon-office-manager.jpg",
+        name: "Walter Gordon",
+        profession: "Office Manager"
     },
     {
-        img : "angela-lopez-social-media-manager.jpg",
-        name : "Angela Lopez",
-        profession : "Social Media Manager"
+        img: "angela-lopez-social-media-manager.jpg",
+        name: "Angela Lopez",
+        profession: "Social Media Manager"
     },
     {
-        img : "scott-estrada-developer.jpg",
-        name : "Scott Estrada",
-        profession : "Developer"
+        img: "scott-estrada-developer.jpg",
+        name: "Scott Estrada",
+        profession: "Developer"
     },
     {
-        img : "barbara-ramos-graphic-designer.jpg",
-        name : "Barbara Ramost",
-        profession : "Graphic Designer"
+        img: "barbara-ramos-graphic-designer.jpg",
+        name: "Barbara Ramost",
+        profession: "Graphic Designer"
     }
 ]
 
@@ -52,22 +52,33 @@ const infoPerson = [
 
 
 for (let i = 0; i < infoPerson.length; i++) {
-    const curInfoPerson =infoPerson[i] //object
+    const curInfoPerson = infoPerson[i] //object
     //console.log(curInfoPerson);
     console.log("----------------------");
 
-  
-    for (let key in curInfoPerson) {
-         console.log(curInfoPerson[key]);
 
-     }
-     
-    
- ///MILESTONE 2
+    for (let key in curInfoPerson) {
+        console.log(curInfoPerson[key]);
+
+    }
+
+
+    ///MILESTONE 2 + /////BONUS 1 + BONUS 2
     //STAMPA NEL DOM TUTTE LE INFO
-    document.getElementById("info").innerHTML += `<div> Nome e Cognome: ${curInfoPerson.name} <br> Professione : ${curInfoPerson.profession} <br> <img src="./img/${curInfoPerson.img}"> </div><br> `;
-   
-   
+
+
+
+    document.getElementById("stampa").innerHTML += `
+   <div class="col-4">          
+        <div class="card mb-5">
+        <img src="./img/${curInfoPerson.img}"></img>
+            <div class="card-body ">
+                <h5 class="card-title text-center fs-2"> ${curInfoPerson.name}</h5>
+                <p class="card-text text-center fs-4  fst-italic">${curInfoPerson.profession}</p>
+            </div> 
+        </div>
+    </div>`;
+
 }
 
 
