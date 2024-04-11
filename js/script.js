@@ -41,12 +41,25 @@ const infoPerson = [
 //MILESTONE 1
 //STAMPARE IN CONSOLE LE INFO DI NOME RUOLO E IMG DI OGNI MEMBRO
 
+
+
 for (let i = 0; i < infoPerson.length; i++) {
     const curInfoPerson =infoPerson[i] //object
     //console.log(curInfoPerson);
     console.log("----------------------");
 
+  
     for (let key in curInfoPerson) {
-        console.log(curInfoPerson[key]);
-    }
+         console.log(curInfoPerson[key]);
+
+     }
+     
+    
+ ///MILESTONE 2
+    //STAMPA NEL DOM TUTTE LE INFO
+    document.getElementById("info").innerHTML += `<div> Nome e Cognome: ${curInfoPerson["name"]} <br> Professione : ${curInfoPerson["profession"]} <br> Immagine :${curInfoPerson["img"]}</div><br> `;
+   
+   
 }
+
+

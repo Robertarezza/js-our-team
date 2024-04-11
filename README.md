@@ -17,4 +17,4 @@ MILESTONE :uno:
 - [x] Stampare su console le informazioni di nome, ruolo e la stringa della foto per ogni membro del team
 
 MILESTONE :due::
-Stampare le stesse informazioni su DOM sottoforma di stringhe
+ - [x] Stampare le stesse informazioni su DOM sottoforma di stringhe
