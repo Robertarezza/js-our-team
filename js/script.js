@@ -69,7 +69,7 @@ for (let i = 0; i < infoPerson.length; i++) {
 
 
     document.getElementById("stampa").innerHTML += `
-   <div class="col-4">          
+   <div class="col col-md-6 col-lg-4 ">          
         <div class="card mb-5">
         <img src="./img/${curInfoPerson.img}"></img>
             <div class="card-body ">

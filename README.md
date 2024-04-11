@@ -23,5 +23,5 @@ MILESTONE :due::
 - [x] Trasformare la stringa foto in una immagine effettiva.
 
 
-BONUS 2 :stella2: :stella2:
+- [x] BONUS 2 :stella2: :stella2:
 Organizzare i singoli membri in card/schede.
