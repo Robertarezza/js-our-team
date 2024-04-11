@@ -36,3 +36,17 @@ const infoPerson = [
         profession : "Graphic Designer"
     }
 ]
+
+
+//MILESTONE 1
+//STAMPARE IN CONSOLE LE INFO DI NOME RUOLO E IMG DI OGNI MEMBRO
+
+for (let i = 0; i < infoPerson.length; i++) {
+    const curInfoPerson =infoPerson[i] //object
+    //console.log(curInfoPerson);
+    console.log("----------------------");
+
+    for (let key in curInfoPerson) {
+        console.log(curInfoPerson[key]);
+    }
+}

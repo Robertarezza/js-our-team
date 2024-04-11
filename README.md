@@ -14,7 +14,7 @@ MILESTONE :zero::
 - [x] Creare l’array di oggetti con le informazioni fornite.
 
 MILESTONE :uno:
-Stampare su console le informazioni di nome, ruolo e la stringa della foto per ogni membro del team
+- [x] Stampare su console le informazioni di nome, ruolo e la stringa della foto per ogni membro del team
 
 MILESTONE :due::
 Stampare le stesse informazioni su DOM sottoforma di stringhe
