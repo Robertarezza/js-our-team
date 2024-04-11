@@ -18,3 +18,10 @@ MILESTONE :uno:
 
 MILESTONE :due::
  - [x] Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+ BONUS 1 :stella2::
+- [x] Trasformare la stringa foto in una immagine effettiva.
+
+
+BONUS 2 :stella2: :stella2:
+Organizzare i singoli membri in card/schede.

@@ -6,7 +6,7 @@
 
 const infoPerson = [
     {
-        img : "wayne-barnett-founder-ceo.jpg",
+        img :"wayne-barnett-founder-ceo.jpg",
         name : "Wayne Barnett",
         profession : "Founder & CEO"
     },
@@ -38,6 +38,14 @@ const infoPerson = [
 ]
 
 
+/////BONUS
+// let img1 = infoPerson[0].img;
+
+// let img = document.createElement('img');
+
+// img.src = img1;
+// document.getElementById('pictures').appendChild(img)
+
 //MILESTONE 1
 //STAMPARE IN CONSOLE LE INFO DI NOME RUOLO E IMG DI OGNI MEMBRO
 
@@ -57,7 +65,7 @@ for (let i = 0; i < infoPerson.length; i++) {
     
  ///MILESTONE 2
     //STAMPA NEL DOM TUTTE LE INFO
-    document.getElementById("info").innerHTML += `<div> Nome e Cognome: ${curInfoPerson["name"]} <br> Professione : ${curInfoPerson["profession"]} <br> Immagine :${curInfoPerson["img"]}</div><br> `;
+    document.getElementById("info").innerHTML += `<div> Nome e Cognome: ${curInfoPerson.name} <br> Professione : ${curInfoPerson.profession} <br> <img src="./img/${curInfoPerson.img}"> </div><br> `;
    
    
 }
